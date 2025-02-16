@@ -5,8 +5,6 @@ const app = express();
 const port = 3000;
 const API_KEY = 'your_openweathermap_api_key'; // Replace with your OpenWeatherMap API key
 
-
-
 app.use(express.json());
 
 // Home route
